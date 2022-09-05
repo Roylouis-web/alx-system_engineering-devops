@@ -1,2 +1,2 @@
 #!/bin/bash
-tr [a-z] [A-Z]
+cat | head -n1 | awk '{print $1;}' | tr [a-z] [A-Z]
