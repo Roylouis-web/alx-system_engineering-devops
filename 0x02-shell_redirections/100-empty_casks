@@ -1,2 +1,2 @@
 #!/bin/bash
-ls /. | xargs -n1 -I{} basename "{}"
+find  /. -type f -empty -or -type d -empty
