@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" 44834284 | tr 01234567 bestchol
+printf "%o\n" 29419078 + 15414583 | tr 01234567 bestchol
