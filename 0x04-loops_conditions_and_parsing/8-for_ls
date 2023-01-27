@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# - Displays the files in the current
+# - working  directory in a certain pattern
+
 curr_content=$("ls")
 
 for i in $curr_content ; do
